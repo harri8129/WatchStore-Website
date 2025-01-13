@@ -1,0 +1,59 @@
+/* Banner.css */
+
+.carousel {
+  max-width: 100%;
+  margin: 5px auto;
+}
+
+.carousel-item img {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+/* .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-.719.719 2.625 2.594h-6.156v1.375h6.156l-2.625 2.594.719.719 3.625-3.625z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-.719.719 2.625 2.594h-6.156v1.375h6.156l-2.625 2.594.719.719 3.625-3.625z'/%3e%3c/svg%3e");
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.8;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  background-color: #333;
+  border-color: #333;
+}

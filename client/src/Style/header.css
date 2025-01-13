@@ -1,0 +1,67 @@
+/* header.css */
+
+.navbar {
+    background-color: #ffffff; /* Navbar background color */
+  }
+  
+  .navbar-brand {
+    color: #fefafa; /* Navbar brand text color */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f4f1f1; /* Navbar links text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #5100ff; /* Navbar links text color on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff; /* Navbar toggler border color */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    background-color: #ffffff; /* Dropdown menu background color */
+    border: 1px solid #dee2e6; /* Dropdown menu border */
+  }
+  
+  .dropdown-item {
+    color: #333333; /* Dropdown item text color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Dropdown item background color on hover */
+    color: #402525; /* Dropdown item text color on hover */
+  }
+  
+  /* Active link */
+  .nav-item.active .nav-link {
+    color: #007bff; /* Active link text color */
+  }
+  
+  /* Badge */
+  .ant-badge {
+    margin-left: 10px; /* Adjust badge margin */
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      border-color: #ffffff; /* Navbar toggler border color on smaller screens */
+    }
+  
+    .navbar-collapse {
+      background-color: #ffffff; /* Navbar collapse background color on smaller screens */
+    }
+  
+    .navbar-nav .nav-link {
+      color: #faf4f4; /* Navbar links text color on smaller screens */
+    }
+  
+    .navbar-nav .nav-link:hover {
+      color: #007bff; /* Navbar links text color on hover on smaller screens */
+    }
+  }
+  

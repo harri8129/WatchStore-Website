@@ -1,0 +1,68 @@
+
+body {
+    background-color: #f4f4f4; /* Set a new background color for the whole page */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Optional: Set a default font family */
+  }
+
+/* Layout and Container */
+.contactus {
+    margin-top: 5;
+    border-radius: 5%;
+    max-width: 800px; /* Set a maximum width for the content */
+    height: 100%;
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add padding around the content */
+    background-color: #e9ebee; /* Light gray background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Typography */
+  .contactus p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+    line-height: 1.6; /* Set line height for better readability */
+    color: #232020; /* Dark gray color for text */
+  }
+  
+  /* Headings */
+  .contactus h1, 
+  .contactus h2, 
+  .contactus h3, 
+  .contactus h4, 
+  .contactus h5, 
+  .contactus h6 {
+    margin-bottom: 15px; /* Add space below headings */
+    color: #2c3e50; /* Dark blue color for headings */
+  }
+  
+  /* List Styling */
+  .contactus ul,
+  .contactus ol {
+    padding-left: 20px; /* Add left padding to lists */
+    margin-bottom: 15px; /* Add space below lists */
+  }
+  
+  /* List Items */
+  .contactus li {
+    margin-bottom: 5px; /* Add space between list items */
+  }
+  
+  /* Link Styling */
+  .contactus a {
+    color: #3498db; /* Light blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Hover Effect for Links */
+  .contactus a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .contactus {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  }
+  

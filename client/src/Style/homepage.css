@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif; /* Optional: Set a default font family */
+  background-color: #f5eded; /* Light gray background for the whole page */
+  margin: 0; /* Remove default margins */
+}
+
+/* Layout and Container */
+.row {
+  display: flex; /* Use flex layout for the row */
+  justify-content: space-between; /* Distribute columns evenly */
+  margin: 1px; /* Add margin around the row */
+}
+
+.col-md-3, .col-md-9 {
+  padding:0px; /* Add padding inside columns */
+  height: max-content;
+  background-color: white; /* White background for the columns */
+  border-radius: 5px; /* Rounded corners */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); Subtle shadow effect */
+}
+
+/* Column Headings */
+.col-md-3 h4, .col-md-9 h1 {
+  margin-bottom: 15px; /* Add space below headings */
+  color: #2c3e50; /* Dark blue color for headings */
+  text-align: center; /* Center the text */
+}
+
+/* Card Styling */
+.card {
+  margin: 10px; /* Add space around cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition for transform and shadow */
+}
+
+.card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 10px; /* Add padding around the card body */
+}
+
+.card-title {
+  margin-bottom: 5px; /* Add space below card title */
+  color: #2c3e50; /* Dark blue color for card title */
+}
+
+.card-text {
+  margin-bottom: 10px; /* Add space below card text */
+  color: #333; /* Dark gray color for card text */
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-5px); /* Move card up by 5px on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity on hover */
+}
+
+/* Buttons */
+.btn {
+  margin: 5px; /* Add space around buttons */
+}
+
+.btn-primary {
+  background-color: #3498db; /* Blue color for primary button */
+  border-color: #3498db; /* Border color for primary button */
+}
+
+.btn-secondary {
+  background-color: #7f8c8d; /* Gray color for secondary button */
+  border-color: #7f8c8d; /* Border color for secondary button */
+}
+
+.btn-danger {
+  background-color: #e74c3c; /* Red color for danger button */
+  border-color: #e74c3c; /* Border color for danger button */
+}
+
+.btn-warning {
+  background-color: #f39c12; /* Orange color for warning button */
+  border-color: #f39c12; /* Border color for warning button */
+}
+
+.btn:hover {
+  opacity: 0.9; /* Slight opacity change on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  /* Reduce padding in columns on smaller screens */
+  .col-md-3, .col-md-9 {
+    padding: 10px;
+  }
+
+  /* Stack columns vertically on smaller screens */
+  .row {
+    flex-direction: column;
+  }
+}
+
+.product-image {
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: contain; /* Maintain aspect ratio and fit entire image within container */
+  object-position: center; /* Center the image horizontally and vertically */
+}
